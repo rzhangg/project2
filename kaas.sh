@@ -21,3 +21,4 @@ done
 
 cat $KAAS/*.faa >$KAAS/fatfile.fasta;
 echo 'cat done';
+rm -r $KAAS/*.faa;
