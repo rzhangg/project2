@@ -21,5 +21,6 @@ done
 
 cat $BWA/*.ffn >$BWA/fat_reference.fasta;
 echo 'cat done';
-
+rm -r $BWA/*.ffn;
+echo 'removed ffn files';
 bwa index $BWA/fat_reference.fasta;
