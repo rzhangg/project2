@@ -13,8 +13,11 @@ for f in $PROKKA_OUTPUT/*; do
     # echo $folder;
     for f in $folder/*.faa; do
         prefix=$( basename $f | sed 's/.faa//g' );
-        echo 'concatenating $folder/$prefix';
-        cat $folder/$prefix.faa >$KAAS/fatfile.fasta;
+        echo 'copying';
+        cp $folder/$prefix.faa $KAAS/${folder: -7}.faa;
         echo 'done';
     done
 done
+
+cat $KAAS/*.faa >$KAAS/fatfile.fasta;
+echo 'cat done';
