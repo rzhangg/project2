@@ -11,8 +11,8 @@ fi
 for f in $PROKKA_OUTPUT/*; do
     folder=$f;
     # echo $folder;
-    for f in $folder/*.faa; do
-        prefix=$( basename $f | sed 's/.faa//g' );
+    for f in $folder/*.ffn; do
+        prefix=$( basename $f | sed 's/.ffn//g' );
         echo 'copying';
         cp $folder/$prefix.ffn $BWA/${folder: -7}.ffn;
         echo 'done';
