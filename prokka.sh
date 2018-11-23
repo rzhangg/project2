@@ -9,5 +9,5 @@ for f in $RESOURCE/SaanichInlet_10m/MetaBAT2_SaanichInlet_10m/MedQPlus_MAGs/*fa;
     echo $sid;
     tax=$(grep -w $sid $RESOURCE/SaanichInlet_10m/MetaBAT2_SaanichInlet_10m/gtdbtk_output/gtdbtk.*.classification_pplacer.tsv | awk '{ print $2 }' | awk -F";" '{ print $1 }' | sed 's/d__//g');
     echo $sid,$tax;
-    prokka --kingdom $tax --cpus 40 --outdir $PROKKA_OUTPUT/$sid --force $f
+    prokka --kingdom $tax --cpus 40 --outdir $PROKKA_OUTPUT/ --prefix $sid --force $f
 done
