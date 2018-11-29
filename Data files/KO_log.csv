@@ -1,0 +1,167 @@
+Nitrogen	C    00910 Nitrogen metabolism [PATH:ko00910]
+Nitrogen	D      K01455  E3.5.1.49; formamidase [EC:3.5.1.49]
+Nitrogen	"D      K02575  NRT, narK, nrtP, nasA; MFS transporter, NNP family, nitrate/nitrite transporter"
+Nitrogen	"D      K15576  nrtA, nasF, cynA; nitrate/nitrite transport system substrate-binding protein"
+Nitrogen	"D      K15577  nrtB, nasE, cynB; nitrate/nitrite transport system permease protein"
+Nitrogen	"D      K15578  nrtC, nasD; nitrate/nitrite transport system ATP-binding protein [EC:3.6.3.-]"
+Nitrogen	"D      K15579  nrtD, cynD; nitrate/nitrite transport system ATP-binding protein"
+Nitrogen	D      K00367  narB; ferredoxin-nitrate reductase [EC:1.7.7.2]
+Nitrogen	D      K10534  NR; nitrate reductase (NAD(P)H) [EC:1.7.1.1 1.7.1.2 1.7.1.3]
+Nitrogen	"D      K00370  narG, narZ, nxrA; nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]"
+Nitrogen	"D      K00371  narH, narY, nxrB; nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]"
+Nitrogen	"D      K00374  narI, narV; nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-]"
+Nitrogen	D      K00372  nasA; assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-]
+Nitrogen	D      K00360  nasB; assimilatory nitrate reductase electron transfer subunit [EC:1.7.99.-]
+Nitrogen	D      K02567  napA; periplasmic nitrate reductase NapA [EC:1.7.99.-]
+Nitrogen	D      K02568  napB; cytochrome c-type protein NapB
+Nitrogen	D      K17877  NIT-6; nitrite reductase (NAD(P)H) [EC:1.7.1.4]
+Nitrogen	D      K00362  nirB; nitrite reductase (NADH) large subunit [EC:1.7.1.15]
+Nitrogen	D      K00363  nirD; nitrite reductase (NADH) small subunit [EC:1.7.1.15]
+Nitrogen	D      K00366  nirA; ferredoxin-nitrite reductase [EC:1.7.7.1]
+Nitrogen	D      K03385  nrfA; nitrite reductase (cytochrome c-552) [EC:1.7.2.2]
+Nitrogen	D      K15876  nrfH; cytochrome c nitrite reductase small subunit
+Nitrogen	D      K00368  nirK; nitrite reductase (NO-forming) [EC:1.7.2.1]
+Nitrogen	D      K15864  nirS; nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1]
+Nitrogen	D      K04561  norB; nitric oxide reductase subunit B [EC:1.7.2.5]
+Nitrogen	D      K02305  norC; nitric oxide reductase subunit C
+Nitrogen	D      K15877  CYP55; fungal nitric oxide reductase [EC:1.7.1.14]
+Nitrogen	D      K00376  nosZ; nitrous-oxide reductase [EC:1.7.2.4]
+Nitrogen	D      K02586  nifD; nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1]
+Nitrogen	D      K02591  nifK; nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1]
+Nitrogen	D      K02588  nifH; nitrogenase iron protein NifH
+Nitrogen	D      K00531  anfG; nitrogenase delta subunit [EC:1.18.6.1]
+Nitrogen	D      K22896  vnfD; vanadium-dependent nitrogenase alpha chain [EC:1.18.6.2]
+Nitrogen	D      K22897  vnfK; vanadium-dependent nitrogenase beta chain [EC:1.18.6.2]
+Nitrogen	D      K22898  vnfG; vanadium nitrogenase delta subunit [EC:1.18.6.2]
+Nitrogen	D      K22899  vnfH; vanadium nitrogenase iron protein
+Nitrogen	D      K20932  K20932; hydrazine synthase subunit [EC:1.7.2.7]
+Nitrogen	D      K20933  K20933; hydrazine synthase subunit [EC:1.7.2.7]
+Nitrogen	D      K20934  K20934; hydrazine synthase subunit [EC:1.7.2.7]
+Nitrogen	D      K20935  hdh; hydrazine dehydrogenase [EC:1.7.2.8]
+Nitrogen	D      K10944  pmoA-amoA; methane/ammonia monooxygenase subunit A [EC:1.14.18.3 1.14.99.39]
+Nitrogen	D      K10945  pmoB-amoB; methane/ammonia monooxygenase subunit B
+Nitrogen	D      K10946  pmoC-amoC; methane/ammonia monooxygenase subunit C
+Nitrogen	D      K05601  hcp; hydroxylamine reductase [EC:1.7.99.1]
+Nitrogen	D      K10535  hao; hydroxylamine dehydrogenase [EC:1.7.2.6]
+Nitrogen	"D      K00459  ncd2, npd; nitronate monooxygenase [EC:1.13.12.16]"
+Nitrogen	D      K19823  NAO; nitroalkane oxidase [EC:1.7.3.1]
+Nitrogen	D      K01501  E3.5.5.1; nitrilase [EC:3.5.5.1]
+Nitrogen	D      K15371  GDH2; glutamate dehydrogenase [EC:1.4.1.2]
+Nitrogen	"D      K00260  gudB, rocG; glutamate dehydrogenase [EC:1.4.1.2]"
+Nitrogen	"D      K00261  GLUD1_2, gdhA; glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3]"
+Nitrogen	"D      K00262  E1.4.1.4, gdhA; glutamate dehydrogenase (NADP+) [EC:1.4.1.4]"
+Nitrogen	"D      K01915  glnA, GLUL; glutamine synthetase [EC:6.3.1.2]"
+Nitrogen	D      K00264  GLT1; glutamate synthase (NADH) [EC:1.4.1.14]
+Nitrogen	D      K00265  gltB; glutamate synthase (NADPH) large chain [EC:1.4.1.13]
+Nitrogen	D      K00266  gltD; glutamate synthase (NADPH) small chain [EC:1.4.1.13]
+Nitrogen	"D      K00284  GLU, gltS; glutamate synthase (ferredoxin) [EC:1.4.7.1]"
+Nitrogen	D      K01948  CPS1; carbamoyl-phosphate synthase (ammonia) [EC:6.3.4.16]
+Nitrogen	D      K01725  cynS; cyanate lyase [EC:4.2.1.104]
+Nitrogen	D      K00926  arcC; carbamate kinase [EC:2.7.2.2]
+Nitrogen	D      K01672  CA; carbonic anhydrase [EC:4.2.1.1]
+Nitrogen	D      K18245  CA2; carbonic anhydrase 2 [EC:4.2.1.1]
+Nitrogen	D      K18246  CA4; carbonic anhydrase 4 [EC:4.2.1.1]
+Nitrogen	"D      K01673  cynT, can; carbonic anhydrase [EC:4.2.1.1]"
+Nitrogen	D      K01674  cah; carbonic anhydrase [EC:4.2.1.1]
+Sulfur	"D      K02048  cysP, sbp; sulfate transport system substrate-binding protein"
+Sulfur	D      K02046  cysU; sulfate transport system permease protein
+Sulfur	D      K02047  cysW; sulfate transport system permease protein
+Sulfur	D      K02045  cysA; sulfate transport system ATP-binding protein [EC:3.6.3.25]
+Sulfur	D      K15551  tauA; taurine transport system substrate-binding protein
+Sulfur	D      K15552  tauC; taurine transport system permease protein
+Sulfur	D      K10831  tauB; taurine transport system ATP-binding protein [EC:3.6.3.36]
+Sulfur	D      K03119  tauD; taurine dioxygenase [EC:1.14.11.17]
+Sulfur	D      K15553  ssuA; sulfonate transport system substrate-binding protein
+Sulfur	D      K15554  ssuC; sulfonate transport system permease protein
+Sulfur	D      K15555  ssuB; sulfonate transport system ATP-binding protein [EC:3.6.3.-]
+Sulfur	D      K04091  ssuD; alkanesulfonate monooxygenase [EC:1.14.14.5]
+Sulfur	D      K00299  ssuE; FMN reductase [EC:1.5.1.38]
+Sulfur	D      K13811  PAPSS; 3'-phosphoadenosine 5'-phosphosulfate synthase [EC:2.7.7.4 2.7.1.25]
+Sulfur	D      K00955  cysNC; bifunctional enzyme CysN/CysC [EC:2.7.7.4 2.7.1.25]
+Sulfur	D      K00956  cysN; sulfate adenylyltransferase subunit 1 [EC:2.7.7.4]
+Sulfur	D      K00957  cysD; sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]
+Sulfur	"D      K00958  sat, met3; sulfate adenylyltransferase [EC:2.7.7.4]"
+Sulfur	D      K00988  APA1_2; sulfate adenylyltransferase (ADP) / ATP adenylyltransferase [EC:2.7.7.5 2.7.7.53]
+Sulfur	D      K22966  HINT4; sulfate adenylyltransferase (ADP) / adenylylsulfatase [EC:2.7.7.5 3.6.2.1]
+Sulfur	D      K00860  cysC; adenylylsulfate kinase [EC:2.7.1.25]
+Sulfur	"D      K01082  cysQ, MET22, BPNT1; 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7]"
+Sulfur	"D      K15759  IMPAD1, IMPA3; inositol monophosphatase 3 [EC:3.1.3.25 3.1.3.7]"
+Sulfur	"D      K15422  SAL; 3'(2'), 5'-bisphosphate nucleotidase / inositol polyphosphate 1-phosphatase [EC:3.1.3.7 3.1.3.57]"
+Sulfur	D      K06881  nrnA; bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]
+Sulfur	"D      K00394  aprA; adenylylsulfate reductase, subunit A [EC:1.8.99.2]"
+Sulfur	"D      K00395  aprB; adenylylsulfate reductase, subunit B [EC:1.8.99.2]"
+Sulfur	D      K05907  APR; adenylyl-sulfate reductase (glutathione) [EC:1.8.4.9]
+Sulfur	D      K00390  cysH; phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10]
+Sulfur	D      K00387  SUOX; sulfite oxidase [EC:1.8.3.1]
+Sulfur	D      K05301  E1.8.2.1; sulfite dehydrogenase [EC:1.8.2.1]
+Sulfur	D      K21307  soeA; sulfite dehydrogenase (quinone) subunit SoeA [EC:1.8.5.6]
+Sulfur	D      K21308  soeB; sulfite dehydrogenase (quinone) subunit SoeB
+Sulfur	D      K21309  soeC; sulfite dehydrogenase (quinone) subunit SoeC
+Sulfur	D      K17222  soxA; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+Sulfur	D      K17223  soxX; L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+Sulfur	D      K17226  soxY; sulfur-oxidizing protein SoxY
+Sulfur	D      K17227  soxZ; sulfur-oxidizing protein SoxZ
+Sulfur	D      K17224  soxB; S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20]
+Sulfur	D      K17225  soxC; sulfane dehydrogenase subunit SoxC
+Sulfur	D      K22622  soxD; S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]
+Sulfur	D      K11180  dsrA; dissimilatory sulfite reductase alpha subunit [EC:1.8.99.5]
+Sulfur	D      K11181  dsrB; dissimilatory sulfite reductase beta subunit [EC:1.8.99.5]
+Sulfur	D      K00380  cysJ; sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]
+Sulfur	D      K00381  cysI; sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2]
+Sulfur	D      K16950  asrA; anaerobic sulfite reductase subunit A
+Sulfur	D      K16951  asrB; anaerobic sulfite reductase subunit B
+Sulfur	D      K00385  asrC; anaerobic sulfite reductase subunit C
+Sulfur	D      K00392  sir; sulfite reductase (ferredoxin) [EC:1.8.7.1]
+Sulfur	D      K17218  sqr; sulfide:quinone oxidoreductase [EC:1.8.5.4]
+Sulfur	D      K17995  hydG; sulfhydrogenase subunit gamma (sulfur reductase) [EC:1.12.98.4]
+Sulfur	D      K17996  hydB; sulfhydrogenase subunit beta (sulfur reductase) [EC:1.12.98.4]
+Sulfur	D      K17993  hydA; sulfhydrogenase subunit alpha [EC:1.12.1.3 1.12.1.5]
+Sulfur	D      K17994  hydD; sulfhydrogenase subunit delta [EC:1.12.1.3 1.12.1.5]
+Sulfur	D      K17229  fccB; sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3]
+Sulfur	D      K17230  fccA; cytochrome subunit of sulfide dehydrogenase
+Sulfur	D      K16952  sor; sulfur oxygenase/reductase [EC:1.13.11.55]
+Sulfur	D      K17219  sreA; sulfur reductase molybdopterin subunit
+Sulfur	D      K17220  sreB; sulfur reductase FeS subunit
+Sulfur	D      K17221  sreC; sulfur reductase membrane anchor
+Sulfur	D      K22470  SQOR; eukaryotic sulfide quinone oxidoreductase [EC:1.8.5.8]
+Sulfur	D      K17725  ETHE1; sulfur dioxygenase [EC:1.13.11.18]
+Sulfur	D      K16936  doxA; thiosulfate dehydrogenase [quinone] small subunit [EC:1.8.5.2]
+Sulfur	D      K16937  doxD; thiosulfate dehydrogenase [quinone] large subunit [EC:1.8.5.2]
+Sulfur	D      K08357  ttrA; tetrathionate reductase subunit A
+Sulfur	D      K08358  ttrB; tetrathionate reductase subunit B
+Sulfur	D      K08359  ttrC; tetrathionate reductase subunit C
+Sulfur	"D      K08352  phsA, psrA; thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5]"
+Sulfur	D      K08353  phsB; thiosulfate reductase electron transport protein
+Sulfur	D      K08354  phsC; thiosulfate reductase cytochrome b subunit
+Sulfur	"D      K01011  TST, MPST, sseA; thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2]"
+Sulfur	D      K02439  glpE; thiosulfate sulfurtransferase [EC:2.8.1.1]
+Sulfur	D      K00640  cysE; serine O-acetyltransferase [EC:2.3.1.30]
+Sulfur	D      K10150  cysO; cysteine synthase / O-phosphoserine sulfhydrylase / cystathionine beta-synthase [EC:2.5.1.47 2.5.1.65 4.2.1.22]
+Sulfur	D      K01738  cysK; cysteine synthase [EC:2.5.1.47]
+Sulfur	D      K13034  ATCYSC1; L-3-cyanoalanine synthase/ cysteine synthase [EC:2.5.1.47 4.4.1.9]
+Sulfur	D      K17069  MET17; O-acetylhomoserine/O-acetylserine sulfhydrylase [EC:2.5.1.49 2.5.1.47]
+Sulfur	D      K00651  metA; homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]
+Sulfur	D      K00641  metX; homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]
+Sulfur	D      K01739  metB; cystathionine gamma-synthase [EC:2.5.1.48]
+Sulfur	D      K10764  metZ; O-succinylhomoserine sulfhydrylase [EC:2.5.1.-]
+Sulfur	D      K17217  mccB; cystathionine gamma-lyase / homocysteine desulfhydrase [EC:4.4.1.1 4.4.1.2]
+Sulfur	D      K17228  sfnG; dimethylsulfone monooxygenase [EC:1.14.14.35]
+Sulfur	D      K16968  msmA; methanesulfonate monooxygenase subunit alpha [EC:1.14.13.111]
+Sulfur	D      K16969  msmB; methanesulfonate monooxygenase subunit beta [EC:1.14.13.111]
+Sulfur	"D      K15762  tmoC, tbuB, touC; toluene monooxygenase system ferredoxin subunit"
+Sulfur	"D      K15765  tmoF, tbuC, touF; toluene monooxygenase electron transfer component [EC:1.18.1.3]"
+Sulfur	D      K07306  dmsA; anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3]
+Sulfur	D      K07307  dmsB; anaerobic dimethyl sulfoxide reductase subunit B (DMSO reductase iron- sulfur subunit)
+Sulfur	D      K07308  dmsC; anaerobic dimethyl sulfoxide reductase subunit C (DMSO reductase anchor subunit)
+Sulfur	D      K16964  ddhA; dimethylsulfide dehydrogenase subunit alpha [EC:1.8.2.4]
+Sulfur	D      K16965  ddhB; dimethylsulfide dehydrogenase subunit beta
+Sulfur	D      K16966  ddhC; dimethylsulfide dehydrogenase subunit gamma
+Sulfur	D      K16953  dddL; dimethylpropiothetin dethiomethylase [EC:4.4.1.3]
+Sulfur	D      K17486  dmdA; dimethylsulfoniopropionate demethylase [EC:2.1.1.269]
+Sulfur	D      K20034  dmdB; 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44]
+Sulfur	D      K20035  dmdC; 3-(methylthio)propanoyl-CoA dehydrogenase [EC:1.3.8.-]
+Sulfur	D      K20036  dmdD; (methylthio)acryloyl-CoA hydratase [EC:4.2.1.155]
+Sulfur	D      K16967  dmoA; dimethyl-sulfide monooxygenase [EC:1.14.13.131]
+Sulfur	D      K21310  mddA; methanethiol S-methyltransferase [EC:2.1.1.334]
+Sulfur	D      K16954  mtsA; methylthiol:coenzyme M methyltransferase [EC:2.1.1.251]
+Sulfur	D      K16955  mtsB; methylated-thiol--corrinoid protein
