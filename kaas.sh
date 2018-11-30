@@ -9,15 +9,15 @@ if [ ! -d $KAAS ]; then
 fi
 
 for f in $PROKKA_OUTPUT/*; do
-    folder=$f;
+
     # echo $folder;
-    for f in $folder/*.faa; do
-        prefix=$( basename $f | sed 's/.faa//g' );
-        echo 'copying';
-        cp $folder/$prefix.faa $KAAS/${folder: -7}.faa;
-        echo 'done';
-    done
+    prefix=$( basename $f | sed 's/.faa//g' );
+    echo 'copying';
+    cp $PROKKA_OUTPUT/$prefix.faa $KAAS/$prefix.faa;
+    echo 'done';
+
 done
+
 
 cat $KAAS/*.faa >$KAAS/fatfile.fasta;
 echo 'cat done';

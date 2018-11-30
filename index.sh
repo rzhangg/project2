@@ -9,14 +9,10 @@ if [ ! -d $BWA ]; then
 fi
 
 for f in $PROKKA_OUTPUT/*; do
-    folder=$f;
-    # echo $folder;
-    for f in $folder/*.ffn; do
-        prefix=$( basename $f | sed 's/.ffn//g' );
-        echo 'copying';
-        cp $folder/$prefix.ffn $BWA/${folder: -7}.ffn;
-        echo 'done';
-    done
+    prefix=$( basename $f | sed 's/.ffn//g' );
+    echo 'copying';
+    cp $PROKKA_OUTPUT/$prefix.ffn $BWA/$prefix.ffn;
+    echo 'done';
 done
 
 cat $BWA/*.ffn >$BWA/fat_reference.fasta;
