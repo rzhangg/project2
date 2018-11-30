@@ -20,7 +20,7 @@ for f in $RESOURCE/SaanichInlet_10m/MetaBAT2_SaanichInlet_10m/MedQPlus_MAGs/*fa;
     echo $sid;
     tax=$(grep -w $sid $RESOURCE/SaanichInlet_10m/MetaBAT2_SaanichInlet_10m/gtdbtk_output/gtdbtk.*.classification_pplacer.tsv | awk '{ print $2 }' | awk -F";" '{ print $1 }' | sed 's/d__//g');
     echo $sid,$tax;
-    prokka --kingdom $tax --cpus 40 --outdir $PROKKA_OUTPUT/$sid --force $f
+    prokka --kingdom $tax --cpus 40 --outdir $PROKKA_OUTPUT/ --prefix $sid --force $f
 done
 
 if [ ! -d $KAAS ]; then
@@ -28,14 +28,13 @@ if [ ! -d $KAAS ]; then
 fi
 
 for f in $PROKKA_OUTPUT/*; do
-    folder=$f;
+
     # echo $folder;
-    for f in $folder/*.faa; do
-        prefix=$( basename $f | sed 's/.faa//g' );
-        echo 'copying';
-        cp $folder/$prefix.faa $KAAS/${folder: -7}.faa;
-        echo 'done';
-    done
+    prefix=$( basename $f | sed 's/.faa//g' );
+    echo 'copying';
+    cp $PROKKA_OUTPUT/$prefix.faa $KAAS/$prefix.faa;
+    echo 'done';
+
 done
 
 cat $KAAS/*.faa >$KAAS/kaas.fasta;
@@ -48,14 +47,10 @@ if [ ! -d $BWA ]; then
 fi
 
 for f in $PROKKA_OUTPUT/*; do
-    folder=$f;
-    # echo $folder;
-    for f in $folder/*.ffn; do
-        prefix=$( basename $f | sed 's/.ffn//g' );
-        echo 'copying';
-        cp $folder/$prefix.ffn $BWA/${folder: -7}.ffn;
-        echo 'done';
-    done
+    prefix=$( basename $f | sed 's/.ffn//g' );
+    echo 'copying';
+    cp $PROKKA_OUTPUT/$prefix.ffn $BWA/$prefix.ffn;
+    echo 'done';
 done
 
 cat $BWA/*.ffn >$BWA/reference.fasta;
