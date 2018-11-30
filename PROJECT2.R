@@ -331,6 +331,12 @@ ggplot(rpkm_dat, aes(x=Completeness, y=Contamination, col=Class)) +
   scale_size(range=c(1,10)) +
   xlim(c(50,100)) +
   ylim(c(0,30)) +
+  geom_hline(mapping=NULL, data=NULL, yintercept=5)+
+  geom_hline(mapping=NULL, data=NULL, yintercept=10)+
+  geom_hline(mapping=NULL, data=NULL, yintercept=15)+
+  geom_vline(mapping=NULL, data=NULL, xintercept=5)+
+  geom_hline(mapping=NULL, data=NULL, yintercept=10)+
+  geom_hline(mapping=NULL, data=NULL, yintercept=15)+  
   theme(panel.background = element_blank(),
         panel.grid.major = element_line(colour = "#bdbdbd", linetype = "dotted"),
         panel.grid.minor = element_blank())
